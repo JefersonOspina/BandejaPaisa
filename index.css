@@ -1,0 +1,112 @@
+body{
+    background-color: #f3f4f5;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0 auto;
+}
+.barra__navegacion{
+    color: darkolivegreen;
+    display: flex;
+    justify-content: space-between;
+}
+.barra__navegacion ul{
+    display: flex;
+}
+.barra__navegacion li{
+    display: inherit;
+}
+.barra__navegacion a{
+    color: black;
+    padding: 10px;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+.barra__navegacion a:hover{
+    color: rgb(144, 172, 43);
+}
+.contenedor{
+    width: 1000px;
+    margin:0 auto;
+}
+.baner{
+    color: white;
+    background-color: darkolivegreen;
+}
+.baner .baner__hero{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+.baner__texto-hero{
+    padding: 80px 0 0 80px;
+    font-family: monospace;
+    font-size: 18px;
+}
+.baner__img-hero{
+    margin: 10px;
+}
+.box{
+    margin: 20px;
+    padding: 5px;
+    display: flex;
+}
+.titulo{
+    text-align: center;
+    font-family: Arial;
+    font-size: 24px;
+}
+p{
+    font-family: Georgia;
+    font-size: 18px;
+    color: #757575;
+}
+.informacion .informacion__hero{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+.informacion__texto{
+    padding: 10px 0 0 80px;
+}
+.imagen{
+    display:block;
+    margin:auto;
+}
+.texto{
+    text-align: center;
+}
+.contiene__box{
+    margin: 15px;
+    box-shadow: 0px 1px 10px 5px darkolivegreen;
+    border-radius: 10px;
+    width: 33%;
+}
+.contiene__card{
+    margin: 10px;
+    padding: 5px;
+}
+.contiene{
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+}
+.informacion .informacion__hero2{
+    display: flex;
+    justify-content: center;
+    
+}
+.informacion__img2-hero{
+    margin: 1px;
+}
+.informacion__texto2{
+    padding: 1px 0 150px 1px;
+}
+.pie__texto{
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    color: white;
+}
+.pie{
+    background-color: darkolivegreen;
+}
